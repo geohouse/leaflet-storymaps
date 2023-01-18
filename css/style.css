@@ -22,7 +22,7 @@ body {
 }
 
 #map {
-  height: 800px;
+  height: 33.3%;
   position: sticky;
   top: 40px;
   z-index: -1;
@@ -30,6 +30,7 @@ body {
 
 .first-scroll-info {
   position: relative;
+  top: -300px;
 }
 
 .header {
