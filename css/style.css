@@ -1,0 +1,42 @@
+/* More intuitive box size by the border*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+/* Allows percentage based heights that are as expected*/
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  background-color: hsl(0, 0%, 95%);
+  height: 200%;
+}
+
+/* The z-index for the leaflet map gets set to 400 in the leaflet.css file. This resets it */
+.leaflet-pane {
+  z-index: 1;
+}
+
+#map {
+  height: 800px;
+  position: sticky;
+  top: 0px;
+  z-index: -1;
+}
+
+.first-scroll-info {
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+}
