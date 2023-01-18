@@ -18,25 +18,24 @@ body {
 body {
   line-height: 1.5;
   background-color: hsl(0, 0%, 95%);
-  height: 200%;
-}
-
-/* The z-index for the leaflet map gets set to 400 in the leaflet.css file. This resets it */
-.leaflet-pane {
-  z-index: 1;
+  height: 300%;
 }
 
 #map {
   height: 800px;
   position: sticky;
-  top: 0px;
+  top: 40px;
   z-index: -1;
 }
 
 .first-scroll-info {
+  position: relative;
 }
 
 .header {
+  height: 40px;
+  z-index: 2;
   position: sticky;
   top: 0px;
+  background-color: red;
 }
