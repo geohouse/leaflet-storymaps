@@ -30,7 +30,17 @@ body {
 
 .first-scroll-info {
   position: relative;
-  top: -300px;
+  top: -50vh;
+}
+
+.second-scroll-info {
+  position: relative;
+  top: 40vh;
+}
+
+.third-scroll-info {
+  position: relative;
+  top: 140vh;
 }
 
 .header {

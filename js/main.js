@@ -38,12 +38,12 @@ function isScrolledInView() {
 
   const isVisible = top > 0 && bottom <= window.innerHeight;
 
-  if (!isVisible) {
-    console.log("Scrolled out of view");
-    const mapRect = document.querySelector("#map").getBoundingClientRect();
-    const newVerticalOffset = `${mapRect.bottom}px`;
-    console.log(newVerticalOffset);
-    scrollInfoBox.style.top = newVerticalOffset;
-    topoMapLayer.addTo(map);
-  }
+  //   if (!isVisible) {
+  //     console.log("Scrolled out of view");
+  //     const mapRect = document.querySelector("#map").getBoundingClientRect();
+  //     const newVerticalOffset = `${mapRect.bottom}px`;
+  //     console.log(newVerticalOffset);
+  //     scrollInfoBox.style.top = newVerticalOffset;
+  //     topoMapLayer.addTo(map);
+  //   }
 }
